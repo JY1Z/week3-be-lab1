@@ -15,12 +15,12 @@ router.get('/', getAllUsers);
 router.post('/', createUser);
 
 // GET /users/:userId
-router.get('/:carId', getUserById);
+router.get('/:userId', getUserById);
 
 // PUT /users/:userId
-router.put('/:carId', updateUser);
+router.put('/:userId', updateUser);
 
 // DELETE /users/:userId
-router.delete('/:carId', deleteUser);
+router.delete('/:userId', deleteUser);
 
 module.exports = router;

@@ -15,7 +15,8 @@ const createUser = (req, res) => {
   } else {
     // Handle error 
     res.status(500).json({ message: "Failed to create user" });
-  }};
+  }
+};
 
 // GET /users/:userId
 const getUserById = (req, res) => {
